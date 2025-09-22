@@ -15,6 +15,8 @@ const columns = Math.floor(W / fontSize);
 const drops = Array(columns).fill(1);
 
 const texts = [
+  "안녕하세요",
+  "A nho a xi nhô",
   "2",
   "1",
   "🎂",
@@ -208,3 +210,4 @@ lastChangeTime = Date.now();
 lastCharTime = Date.now();
 
 setInterval(drawMatrixRain, 50);
+
